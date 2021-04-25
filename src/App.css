@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient(90deg, rgba(27,176,169,1) 5%, rgba(42,125,164,1) 32%, rgba(119,184,187,1) 81%);;
+}
+
+.logo{
+  width: 24%;
+  margin-top: 150px;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .logo{
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .logo{
+    width: 40%;
+  }
+}
